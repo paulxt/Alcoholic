@@ -1,0 +1,587 @@
+.project-2 {
+    /* background-color: white; */
+    padding: 1rem 0 0 0 ;
+}
+
+.project-2 .footer p {
+    color: #000;
+}
+
+.project-2 a {
+    color: #000;
+}
+
+.project2-block {
+    margin: 2rem auto;
+}
+
+/*----- First Part -----*/
+.project-2_beginner {
+    text-align: center;
+}
+
+.project-2_title {
+    color: var(--primary-color);
+    font-size: 4rem;
+}
+
+.project-2_des {
+    line-height: 2.5;
+    width: 60%;
+    margin: 1.5rem auto;
+    color: #fff;
+}
+.light-theme .project-2_des {
+    color: #000;
+}
+
+.project-2_word {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: auto;
+    width: 20rem;
+    border-radius: 10rem;
+}
+
+/*----- Social Part -----*/ 
+.social-part {
+    display: flex;
+    margin: auto;
+}
+
+.social-part_img {
+    width: 39%;
+    height: auto;
+}
+
+.social-part_img img {
+    width: 100%;
+    height: auto;
+}
+
+.social-part_des {
+    width: 59%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-part_des h3 {
+    font-size: 2.3rem;
+    color: var(--primary-color);
+}
+
+.social-part_ul {
+    margin: 2rem auto 3rem;
+    color: #fff;
+}
+.light-theme .social-part_ul {
+    color: #000;
+}
+
+.social-part_ul ul {
+    list-style-type: none;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-part_ul ul li {
+    width: 42%;
+    margin: 3rem 0 0 0;
+    font-size: 1.2rem;
+}
+
+.social-part_ul ul i {
+    color: var(--primary-color);
+}
+
+.social-part_icon {
+    vertical-align: top;
+}
+
+.social-part_icon i {
+    font-size: 5rem;
+    margin: auto 2rem;
+}
+.ri-facebook-box-fill {
+    color: rgb(24, 119, 242);
+}
+.ri-instagram-fill {
+    color: #ee2a7b;
+
+}
+.ri-threads-line {
+    color: #fff;
+}
+.light-theme .ri-threads-line {
+    color: #000;
+}
+
+/*----- CRM Part -----*/ 
+
+.crm-part_title {
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.line_google {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.line_google-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 2rem auto 0;
+    padding: 2rem;
+}
+
+.line_google-block h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem auto;
+    padding: 0.2rem 1rem;
+    color: #d9b93e;
+    background-color: white;
+}
+
+.line_google-block img {
+    width: 3rem;
+}
+
+.line_google-block ul {
+    list-style-type: none;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.line_google-block ul li {
+    width: 50%;
+    margin: 0.5rem auto;
+    font-size: 1rem;
+}
+
+.line_google-block ul li i {
+    color: white;
+}
+
+.line {
+    background-color: #d9b93e;
+}
+.google {
+    background-color: #fdeba6;
+}
+
+/*----- Forum Part -----*/
+.forum_image {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.forum_content h3 {
+    text-align: center;
+    margin: 3rem auto;
+    font-size: 2rem;
+    color: #fff;
+}
+.light-theme .forum_content h3 {
+    color: #000;
+}
+
+.forum_image img {
+    width: 100%;
+}
+
+.dcard_image img {
+    width: 100%;
+}
+
+/*----- SEO Part -----*/
+.seo_header {
+    background-color: #d9b93e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+}
+.seo_header h2 {
+    color: #fff;
+}
+
+.seo_des {
+    background-image: url('../images/seoBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: 1140px 400px;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.seo_block {
+    margin: 13rem 4rem auto;
+    text-align: center;
+}
+
+.seo_block h2 {
+    color: #fff;
+}
+
+.block_up {
+    background-color: #d9b93e;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+/*----- Case Effect Part -----*/
+.case_effect {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.case_img {
+    width: 59%;
+}
+.case_des {
+    width: 30%;
+    margin: 3rem auto;
+}
+
+.case_block {
+    margin-left: 2rem;
+}
+
+.case_block h2 {
+    color: #d9b93e;
+    font-size: 3.5rem;
+    width: 13rem;
+    margin: 10rem 0 1rem;
+}
+
+.case_block h3 {
+    font-size: 2rem;
+    color: #fff;
+}
+.light-theme .case_block {
+    color: #000;
+}
+
+.case_block h4 {
+    font-size: 1.5rem;
+    color: #dedfd1;
+}
+
+.case_block p {
+    font-weight: 700;
+    color: #fff;
+}
+.light-theme .case_block p {
+    color: #000;
+}
+
+.case_block img {
+    width: 100%;
+}
+
+/*----- Website Part -----*/
+.website h2 {
+    text-align: center;
+    color: #d9b93e;
+    font-weight: 700;
+    margin: 1rem auto 2rem;
+    font-size: 3rem;
+}
+
+.website_images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.website_block {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 13rem;
+    align-items: center;
+    height: 25rem;
+    color: white;
+}
+
+.website_block-1 {
+    background-image: url('../images/website-1.jpg');
+    background-repeat: no-repeat;
+    background-size: 342px 360px;
+}
+
+.website_block-2 {
+    background-image: url('../images/website-2.jpg');
+    background-repeat: no-repeat;
+    background-size: 342px 360px;
+}
+
+.website_block-3 {
+    background-image: url('../images/website-3.jpg');
+    background-repeat: no-repeat;
+    background-size: 342px 360px;
+}
+
+.website_block h3 {
+    font-size: 1.5rem;
+}
+
+.website_block p {
+    background-color: #d9b93e;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    font-weight: 500;
+    border-radius: 25rem;
+    height: 2.5rem;
+    font-size: 1.3rem;
+    margin-top: 0.7rem;
+}
+
+/*----- Ｅxperiences Part -----*/
+.socail-experience h2 {
+    text-align: center;
+    color: #d9b93e;
+    font-size: 3rem;
+}
+
+.socail-experience img {
+    width: 100%;
+    margin: 0.1rem auto;
+}
+
+/*----- Win Win Part -----*/
+.win_win h2 {
+    background-color: #000;
+    color: #fff;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+    font-size: 3rem;
+}
+
+.win_win-des {
+    display: flex;
+}
+
+.win_win-des img {
+    width: 50%;
+}
+
+.win_win-word {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+}
+.win_win-block {
+    margin: 1.5rem 0;
+}
+
+.win_win-block h3 {
+    color: #d9b93e;
+    font-size: 2rem;
+}
+
+.win_win-block p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+}
+.light-theme .win_win-block p {
+    color: #000;
+}
+
+.red_word {
+    color: red;
+}
+
+/*----- Social Footer Part -----*/
+.social_footer {
+    display: flex;
+}
+
+.social_footer-logo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.social_footer-logo h2 {
+    color: #000;
+    width: 70%;
+    display: flex;
+}
+
+.social_footer-logo img {
+    width: 80%;
+}
+
+.social_footer-des {
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+    background-color: #d9b93e;
+}
+
+.social_footer-block {
+    margin: 1.5rem 4.5rem;
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.5rem;
+}
+
+.social_footer-block h3 {
+    font-size: 1.5rem;
+}
+
+.social_footer-block p {
+    color: white;
+    padding-top: 0.1rem;
+}
+
+
+@media only screen and (max-width:768px) {
+/*----- SEO Part -----*/
+    .social-part {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .seo_block {
+        margin: 4rem 0.5rem auto;
+    }
+    .seo_header h2 {
+        font-size: 1.6rem;
+    }
+
+    .case_effect {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .case_des {
+        width: 100%;
+    }
+
+    .case_block {
+        margin: 1rem auto;
+        text-align: center;
+    }
+    
+    .case_block h2 {
+        margin: 1rem auto;
+        text-align: center;
+    }
+
+    .social-part_ul {
+        margin: 0 auto 1rem;
+    }
+
+    .social-part_ul ul {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .website h2 {
+        font-size: 2rem;
+    }
+    .website_images {
+        flex-direction: column;
+    }
+    .website_block h3 {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .website_block {
+        height: 30rem;
+        width: 100%;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        margin: 0.3rem auto;
+    }
+    .website_block h3 {
+        font-size: 2rem;
+    }
+    .website_block p {
+        font-size: 1.2rem;
+        width: 10rem;
+    }
+    .website_block-1 {
+        background-size: 700px 840px;
+    }
+    .website_block-2 {
+        background-size: 700px 840px;
+    }
+    .website_block-3 {
+        background-size: 700px 840px;
+    }
+
+    .socail-experience h2 {
+        font-size: 2rem;
+    }
+
+    .win_win h2 {
+        font-size: 2rem;
+        height: 5rem;
+    }
+
+    .win_win-des {
+        flex-direction: column;
+    }
+
+    .win_win-des img {
+        width: 100%;
+    }
+
+    .social_footer {
+        flex-direction: column;
+    }
+
+    .social_footer-des {
+        margin: 0;
+    }
+
+    .social_footer-logo {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .social_footer-block {
+        margin: 1.4rem 1rem;
+        
+    }
+
+    .social_footer-block h3 {
+        font-size: 1.4rem;
+    }
+    .social_footer-block p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    
+}

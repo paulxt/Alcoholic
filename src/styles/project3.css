@@ -1,0 +1,302 @@
+
+.project-3 .footer p {
+    color: #000;
+}
+
+.project-3 a {
+    color: #000;
+}
+.project-3 {
+    /* background-color:white; */
+    padding: 0;
+    margin: 2rem auto;
+}
+
+/*----- Project3 header Part -----*/
+.project3-header h1 {
+    font-size: 4rem;
+    color: #d9b93e;
+    text-align: center;
+}
+
+.project3-header p {
+    margin: 1rem auto;
+    text-align: center;
+    line-height: 2;
+    color: #fff;
+}
+.light-theme .project3-header p {
+    color: #000;
+}
+
+.project3-header h3 {
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    background-color: #d9b93e;
+    color: white;
+    text-align: center;
+    width: 15rem;
+    border-radius: 10rem;
+}
+
+/*----- Ad Intro Part -----*/
+.ad_intro {
+    display: flex;
+}
+
+.ad_intro-des {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.ad_intro-des h2 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+.light-theme .ad_intro-des h2 {
+    color: #000;
+}
+
+.ad_intro-des ul {
+    color: #d9b93e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    white-space: pre-wrap;
+}
+
+.ad_intro-des ul li {
+    margin: 1rem auto;
+}
+
+.ad_intro-img {
+    width: 50%;
+}
+
+.ad_intro-img img {
+    width: 100%;
+    height: auto;
+}
+
+/*----- Ad Compare Part -----*/
+.ad_compare h2 {
+    color: #fff;
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 2.2rem;
+}
+.light-theme .ad_compare h2 {
+    color: #000;
+}
+
+.ad_compare table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.ad_compare th,td {
+    padding: 8px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+.light-theme .ad_compare th,td {
+    border: 1px solid #000;
+}
+
+.ad_compare th {
+    background-color: #d9b93e;
+    color: white;
+}
+.ad_compare td {
+    font-weight: 500;
+}
+
+.ad_compare img {
+    width: 2rem;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+
+.ad_compare-group1 {
+    color: #a6a6a6;
+}
+
+.ad_compare-group2 {
+    color: #fff;
+}
+.light-theme .ad_compare-group2 {
+    color: #000;
+}
+
+/*----- Ad Data Part -----*/
+.ad_data {
+    margin: 3rem auto;
+}
+
+.ad_data h2 {
+    color: #fff;
+    text-align: center;
+}
+.light-theme .ad_data h2 {
+    color: #0e1d40;
+}
+
+.ad_data-images {
+    display: flex;
+    margin: 2rem auto;
+}
+
+.ad_data-image img {
+    width: 100%;
+}
+
+
+/*----- Ad Tracking Part -----*/
+.ad_track h2 {
+    color: #d9b93e;
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+.ad_track-content {
+    display: flex;
+    margin: 1rem auto;
+}
+
+.ad_track-img {
+    width: 30%;
+}
+
+.ad_track-img img {
+    width: 100%;
+}
+
+.ad_track-des {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ad_track-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ad_track-icons img {
+    width: 17%;
+    height: auto;
+}
+
+.ad_track-des p {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 2.3;
+    color: #fff;
+}
+.light-theme .ad_track-des p {
+    color: #000;
+}
+
+/*----- Ad Footer Part -----*/
+.ad_footer {
+    display: flex;
+}
+
+.ad_footer-logo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.ad_footer-logo h2 {
+    color: #000;
+    width: 70%;
+    display: flex;
+    
+}
+
+.ad_footer-logo img {
+    width: 80%;
+}
+
+.ad_footer-des {
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+    background-color: #d9b93e;
+}
+
+.ad_footer-block {
+    margin: 1.5rem 4.5rem;
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.5rem;
+}
+
+.ad_footer-block h3 {
+    font-size: 1.5rem;
+}
+
+.ad_footer-block p {
+    color: white;
+    padding-top: 0.1rem;
+}
+
+
+
+
+@media only screen and (max-width:768px) {
+    .ad_intro {
+        flex-direction: column;
+    }
+
+    .ad_intro-des {
+        width: 100%;
+    }
+    .ad_intro-img {
+        width: 100%;
+        align-items: center;
+    }
+    .ad_data-images {
+        flex-direction: column;
+    }
+
+
+
+
+
+    .ad_footer {
+        flex-direction: column;
+    }
+
+    .ad_footer-des {
+        margin: 0;
+    }
+
+    .ad_footer-logo {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .ad_footer-block {
+        margin: 1.4rem 1rem;
+        
+    }
+
+    .ad_footer-block h3 {
+        font-size: 1.4rem;
+    }
+    .ad_footer-block p {
+        font-size: 1rem;
+    }
+}

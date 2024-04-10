@@ -1,0 +1,392 @@
+
+
+/*------------- About Page Header --------------*/
+.aboutp_header {
+    background-color: #000;
+    color: #fff;
+}
+
+.aboutp_header-des {
+    text-align: center;
+    margin: 2rem auto;
+    height: 25rem;
+}
+
+.aboutp_header-des h2 {
+    color: #fff;
+    font-size: 4rem;
+}
+
+.aboutp_header-des p {
+    margin-top: 1rem;
+    line-height: 2.5;
+    font-size: 1.5rem;
+}
+
+.aboutp_header-1 {
+    background-image: url('../images/about-header_img1.jpg');
+    background-size: 1140px 463px;
+    background-repeat: no-repeat;
+    height: 30rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutp_header-1 h2 {
+    color: #fff;
+    margin-top: 6rem;
+    padding: 4rem;
+    border-top: 1px solid #fff;
+}
+.aboutp_header-1-left {
+    margin-left: 3rem;
+    font-size: 5.5rem;
+}
+.aboutp_header-1-right{
+    margin-right: 3rem;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.aboutp_header-2 {
+    background-image: url('../images/about-header-image2.jpg');
+    background-size: 1140px 422px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 25rem;
+}
+
+.aboutp_header-2 h2 {
+    color: #fff;
+    font-size: 3rem;
+    margin-left: 10rem;
+    line-height: 1.8;
+}
+
+/*------------- About History ------------*/
+
+.history-title {
+    text-align: center;
+    color: #000;
+    margin: 2rem auto;
+    font-size: 2.5rem;
+}
+
+.history-blocks {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.history-block {
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.history-block h3 {
+    background-color: var(--primary-color);
+    margin: 0.5rem auto;
+    border-radius: 10rem;
+    width: 90%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.history-block p {
+    text-align: center;
+}
+
+.history-block img {
+    width: 100%;
+}
+
+/* Line creation in Developing */
+.line-container {
+    border-top: 2px solid var(--primary-color);
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    margin: 2rem auto 0;
+}
+.line-link {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+}
+.line-link:first-child {
+    margin-left: -55px;
+    }
+    
+.line-link:last-child {
+    margin-right: -55px;
+}
+.line-link::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    position: absolute;
+    border-radius: 10px;
+    top: -18px;
+    left: 50%;
+    transform: translatex(-50%);
+    border: 2px solid var(--primary-color);
+}
+.active::after,
+.line-link:hover::after {
+    background: var(--primary-color);
+}
+
+
+
+/*----------------  Reaching  --------------*/
+.reaching {
+    display: flex;
+    margin: 4rem auto;
+}
+
+.reaching-des {
+    width: 60%;
+    background-color: #000;
+    color: #fff;
+}
+
+.reaching-des h2 {
+    color: #fff;
+    text-align: center;
+    width: 20rem;
+    margin: 3rem 3rem 1rem;
+    font-size: 2.5rem;
+}
+
+.reaching-des img {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.reaching-img {
+    width: 40%;
+}
+
+.reaching-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/*-------- Three Service Plan  ----------*/
+
+.service_plan h2 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+
+.service_plan-blocks {
+    display: flex;
+}
+
+.service_plan-block {
+    width: 32%;
+    max-height: 32%;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service_plan-block img {
+    width: 80%;
+}
+
+.service_plan-block h3 {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.service_plan-block p {
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.service_plan-middle-block {
+    margin: auto 2%;
+}
+
+
+/*-----------  Japanese Team  -----------*/
+.japanese_team {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.japanese_team img {
+    width: 50%;
+}
+
+.japanese_team-des {
+    background-color: #000;
+    color: #fff;
+    width: 50%;
+    padding: 2rem 1rem 0.5rem;
+}
+
+.japanese_team-des h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+.japanese_team-block {
+    padding: 1.5rem 0;
+    text-align: center;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    margin: auto 3rem;
+}
+
+.japanese_team-block h3 {
+    font-size: 1.2rem;
+}
+
+.japanese_team-logos {
+    display: inline-block;
+    padding: 2rem 2rem;
+}
+
+.japanese_team-logos img {
+    width: 30%;
+    margin: 0.2rem;
+}
+
+.japaneseTeamLogo1 {
+    display: inline-block;
+    /* height: 5rem; */
+}
+.japaneseTeamLogo2 {
+    height: 2.6rem;
+}
+.japaneseTeamLogo3 {
+    width: 20%;
+    height: 2.6rem;
+}
+.japaneseTeamLogo4 {
+    height: 2.6rem;
+}
+.japaneseTeamLogo5 {
+    height: 2.6rem;
+    width: 16rem!important;
+}
+
+/* About Experience */
+.about_experience {
+    background-image: url('../images/about-experience-image.jpg');
+    background-size: 1140px 638px;
+    background-repeat: no-repeat;
+    padding: 2rem;
+}
+
+.about_experience h2 {
+    text-align: center;
+    color: #fff;
+    margin: 2rem auto;
+    font-size: 2.5rem;
+}
+
+.about_experience-blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about_experience-block {
+    width: 20%;
+    margin: 1rem 2%;
+    padding: 1rem;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+}
+
+.about_experience-block h3 {
+    margin-bottom: 1rem;
+}
+
+
+
+@media only screen and (max-width:1028px) {
+    .aboutp_header-1 h2 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .aboutp_header-1 h2 {
+        font-size: 3.5rem;
+    }
+    .about_experience {
+        padding: 1rem;
+    }
+    .about_experience h2 {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .aboutp_header-1 {
+        flex-direction: column;
+        height: auto;
+        background-size: 768px 311px;
+    }
+    .aboutp_header-1 h2 {
+        font-size: 3rem;
+        padding: 0;
+        margin: 1rem;
+        text-align: center;
+        border: none;
+    }
+    .aboutp_header-2 h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    .about_experience h2 {
+        font-size: 2rem;
+    }
+    .about_experience-block {
+        padding: 0.3rem 1rem 0;
+    }
+    .about_experience-block ul {
+        font-size: 0.9rem;
+    }
+    .about_experience h3 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .about_experience h3 {
+        font-size: 0.8rem;
+    }
+    .about_experience-block ul {
+        font-size: 0.7rem;
+    }
+}
