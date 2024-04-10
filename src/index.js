@@ -13,7 +13,7 @@ import Project3 from './components/pages/Project3';
 import AboutPage from './components/pages/AboutPage';
 import ServicePage from './components/pages/ServicePage';
 import Contact from './components/pages/Contact';
-
+import ReactGA from 'react-ga';
 
 const router = createBrowserRouter([
   {
@@ -45,6 +45,14 @@ const router = createBrowserRouter([
     element: <Contact />,
   },
 ]);
+
+ReactGA.initialize('G-J0GT4G8XVN');
+ReactGA.pageview(window.location.pathname + window.location.search);
+ReactGA.event({
+  category: 'Button',
+  action: 'Click',
+  label: 'Contact Us'
+}); 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
