@@ -84,6 +84,10 @@ section {
     padding: 60px 0;
 }
 
+#root {
+    margin: 0!important;
+}
+
 .container {
     width: 1140px;
     padding: 0px 15px;
@@ -124,7 +128,7 @@ section {
 
 @media only screen and (max-width:1024px) {
     .container {
-        width: 100%;
+        width: 100%!important;
     }
 }
 

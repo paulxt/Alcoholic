@@ -1,3 +1,6 @@
+.container {
+    width: 100%;
+}
 
 .counter_des h2 {
     color: var(--primary-color);
@@ -51,6 +54,10 @@
 
     .counter_item {
         width: 30%;
+    }
+
+    .counter_des h2 {
+        font-size: 2rem;
     }
 }
 

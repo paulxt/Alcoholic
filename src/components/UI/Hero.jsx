@@ -30,7 +30,7 @@ const Hero = ({theme, language}) => {
                     </div>
 
                     <div className="hero_img">
-                        <img src={theme === 'light-theme' ? heroGIF : heroDarkGIF} alt="hero-img" />
+                        <img className='hero_image' src={theme === 'light-theme' ? heroGIF : heroDarkGIF} alt="hero-img" />
                     </div>
                 </div>
             </div>
