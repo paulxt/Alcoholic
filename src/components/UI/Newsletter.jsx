@@ -16,7 +16,7 @@ const Newsletter = ({ language }) => {
         e.preventDefault();
 
         const publicKey = "0TxbXfVTvzZfsbxeh";
-        const serviceID = "service_3y2b1gs";
+        const serviceID = "service_9wahsop";
         const templateID = "template_7d2bdkx";
 
         const templateParams = {
