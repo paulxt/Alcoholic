@@ -89,7 +89,7 @@ section {
 }
 
 .container {
-    width: 1140px;
+    width: 1140px!important;
     padding: 0px 15px;
     margin: auto;
 }
