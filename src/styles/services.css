@@ -74,6 +74,9 @@
         width: 31%;
         margin-bottom: 30px;
     }
+    .service_item:hover {
+        transform: none;
+    }
 }
 
 @media only screen and (max-width:768px) {
