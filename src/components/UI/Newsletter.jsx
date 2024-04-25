@@ -31,7 +31,6 @@ const Newsletter = ({ language }) => {
                 setName('');
                 setEmail('');
                 setMessage('');
-                
             })
             .catch((err) => {
                 console.log(err);

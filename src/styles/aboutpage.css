@@ -403,14 +403,31 @@
     .about_experience h3 {
         font-size: 1rem;
     }
+
+    .service_plan-blocks {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .service_plan-block {
+        width: 80%;
+        margin: 0.5rem;
+    }
+    .service_plan-middle-block {
+        margin: 0;
+    }
 }
 
 @media only screen and (max-width:576px) {
     .about_experience h3 {
         font-size: 0.8rem;
+        margin: 0;
     }
     .about_experience-block ul {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
+    }
+    .about_experience-block {
+        margin: 5px;
     }
 
     .japanese_team {

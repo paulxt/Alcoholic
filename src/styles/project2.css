@@ -502,6 +502,34 @@
     .social-part_ul ul {
         align-items: center;
         justify-content: center;
+        flex-direction: column;
+    }
+    .social-part_ul ul li {
+        width: 100%;
+        margin: 1rem 0 0 0 ;
+        text-align: start;
+    }
+
+    .social-part_icon i {
+        font-size: 4rem;
+        margin: auto 0;
+    }
+
+    .line_google-block h3 {
+        font-size: 1rem;
+    }
+
+    .line_google-block ul {
+        flex-direction: column;
+    }
+    .line_google-block ul li {
+        width: 100%;
+        font-size: 0.7rem;
+        margin: 0.2rem 0;
+    }
+
+    .forum_content h3 {
+        margin: 1.5rem 0;
     }
 
     .website h2 {
@@ -546,10 +574,15 @@
     .win_win h2 {
         font-size: 2rem;
         height: 5rem;
+        padding: 1rem;
     }
 
     .win_win-des {
         flex-direction: column;
+    }
+
+    .win_win-block {
+        margin: 1rem auto;
     }
 
     .win_win-des img {

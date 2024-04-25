@@ -283,4 +283,11 @@
     .services_plannig-des2 {
         width: 100%;
     }
+
+    .services_exploring-body ul {
+        flex-direction: column;
+    }
+    .services_exploring-body ul li {
+        width: 70%;
+    }
 }
