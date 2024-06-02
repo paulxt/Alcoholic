@@ -113,6 +113,10 @@
     color: #d9b93e;
 }
 
+.ri-mail-fill {
+    color: #d9b93e;
+}
+
 @media only screen and (max-width:768px) {
     .footer_logo {
         width: 55%;

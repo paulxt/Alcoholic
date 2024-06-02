@@ -91,7 +91,7 @@ const Testimonial = ({language}) => {
             <div className="container">
                 <div className='slider_content-top'>
                     <h6 className="subtitle">Testimonials</h6>
-                    <h2>Trusted by more than <span className='highlight'>5000 customers</span></h2>
+                    <h2>Trusted by<span className='highlight'> customers</span></h2>
                 </div>
 
 
@@ -99,45 +99,41 @@ const Testimonial = ({language}) => {
                     <Slider {...settings}>
                         <div className="slider_item">
                             <p className="description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolor voluptatem ad odit dicta harum reiciendis maiores itaque aperiam vel maxime, quidem eaque labore nemo aut quaerat fugiat sed sint aliquam ipsum corrupti velit earum rem. Repellat ratione debitis voluptatem.
+                                    A newly established company has low visibility and a single customer base.
+                                    Traditional industries are facing digital transformation and marketing difficulties!
+                                    By resetting the brand positioning, short video shooting and editing,
+                                    and AI-optimized advertising, we increase social reach! Established an official website
+                                    and official LINE, optimized after-sales CRM services, successfully developed new customers
+                                    and solid brand reputation.
                             </p>
                             <div className="customer_details">
                                 <div className="customer_img">
                                     <img src={ava01} alt="" />
                                 </div>
                                 <div>
-                                    <h5 className="customer_name">John Mayer</h5>
-                                    <p className="description">CEO, WorkCreation</p>
+                                    <h5 className="customer_name">Trusted & Ture</h5>
+                                    <p className="description">Builing Materials Supplier</p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="slider_item">
                             <p className="description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolor voluptatem ad odit dicta harum reiciendis maiores itaque aperiam vel maxime, quidem eaque labore nemo aut quaerat fugiat sed sint aliquam ipsum corrupti velit earum rem. Repellat ratione debitis voluptatem.
+                                    Traditional event companies want to know how to attract people
+                                    from different generations to participate in promotional activities.
+                                    By re-formulating the marketing strategy for online and offline events,
+                                    and optimizing event promotion through art design event souvenirs,
+                                    event site layout and AI advertising,
+                                    we can maximize the effectiveness of event promotion and create eye-catching highlights
+                                    of the event.
                             </p>
                             <div className="customer_details">
                                 <div className="customer_img">
                                     <img src={ava02} alt="" />
                                 </div>
                                 <div>
-                                    <h5 className="customer_name">Ann Mattinn</h5>
-                                    <p className="description">Sr, Product Designer</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="slider_item">
-                            <p className="description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolor voluptatem ad odit dicta harum reiciendis maiores itaque aperiam vel maxime, quidem eaque labore nemo aut quaerat fugiat sed sint aliquam ipsum corrupti velit earum rem. Repellat ratione debitis voluptatem.
-                            </p>
-                            <div className="customer_details">
-                                <div className="customer_img">
-                                    <img src={ava03} alt="" />
-                                </div>
-                                <div>
-                                    <h5 className="customer_name">Lauren Smith</h5>
-                                    <p className="description">CEO, Software Developer</p>
+                                    <h5 className="customer_name">Body Marketing</h5>
+                                    <p className="description">Physical Event Company</p>
                                 </div>
                             </div>
                         </div>
