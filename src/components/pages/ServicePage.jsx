@@ -1,32 +1,14 @@
-import React, {useState,useEffect} from 'react'
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Header from '../Header/Header';
-import ServiceContent from '../UI/ServiceContent';
-import Footer from '../Footer/Footer';
+import ServiceContent from '../UI/ServiceUI/ServiceContent';
 
-const Service = () => {
-
-    const [theme, setTheme] = useState('light-theme');
-    const [language, setLanguage] = useState('Chinese');
-
-    const toggleLanguage = () => {
-        language === 'Chinese' ? setLanguage('English') : setLanguage('Chinese');
-    }
-
-    const toggleTheme = () => {
-        theme === '' ? setTheme('light-theme') : setTheme('');
-    }
-
-    useEffect(() => {
-        document.body.className = theme
-    }, [theme]);
+const Service = ({language}) => {
 
     return (
-        <>
-            <Header theme={theme} toggleTheme={toggleTheme} language={language} toggleLanguage={toggleLanguage} />
-            <ServiceContent theme={theme} language={language} />
-            <Footer />
-        </>
+        <div className='service-page mt-5'>
+            <ServiceContent language={language} />
+        </div>
         
     )
 }

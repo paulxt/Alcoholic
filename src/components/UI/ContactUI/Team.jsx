@@ -1,17 +1,17 @@
 import React from 'react';
 
-import '../../styles/team.css';
+import '../../../styles/team.css';
 
-import team01 from '../../images/team-01.jpg';
-import team02 from '../../images/team-02.png';
-import team03 from '../../images/team-03.png';
-import team04 from '../../images/team-04.png';
+import team01 from '../../../images/team-01.jpg';
+import team02 from '../../../images/team-02.png';
+import team03 from '../../../images/team-03.png';
+import team04 from '../../../images/team-04.png';
 
 //framer motion
 import { motion } from 'framer-motion';
 
 //variants
-import { fadeIn } from '../../variants';
+import { fadeIn } from '../../../variants';
 
 const teamMembers = [
     {

@@ -1,24 +1,24 @@
 import React from 'react';
 
-import '../../styles/servicepage.css';
+import '../../../styles/servicepage.css';
 
-import serviceHeaderImg from '../../images/service-header-image.jpg';
-import artServiceImg from '../../images/art-service-image.jpg';
-import serviceProcess1 from '../../images/service-process-1.jpg';
-import serviceProcess2 from '../../images/service-process-2.jpg';
-import serviceProcess3 from '../../images/service-process-3.jpg';
-import serviceExploringImg from '../../images/service-exploring.jpg';
+import serviceHeaderImg from '../../../images/service-header-image.jpg';
+import artServiceImg from '../../../images/art-service-image.jpg';
+import serviceProcess1 from '../../../images/service-process-1.jpg';
+import serviceProcess2 from '../../../images/service-process-2.jpg';
+import serviceProcess3 from '../../../images/service-process-3.jpg';
+import serviceExploringImg from '../../../images/service-exploring.jpg';
 
-import integratedService1 from '../../images/integrated-service-1.jpg';
-import integratedService2 from '../../images/integrated-service-2.jpg';
-import integratedService3 from '../../images/integrated-service-3.jpg';
-import integratedService4 from '../../images/integrated-service-4.MP4';
+import integratedService1 from '../../../images/integrated-service-1.jpg';
+import integratedService2 from '../../../images/integrated-service-2.jpg';
+import integratedService3 from '../../../images/integrated-service-3.jpg';
+import integratedService4 from '../../../images/integrated-service-4.MP4';
 
-import servicePlanImg from '../../images/service-plan.jpg';
+import servicePlanImg from '../../../images/service-plan.jpg';
 
 //framer motion
 import { motion } from 'framer-motion';
-import { fadeIn } from '../../variants';
+import { fadeIn } from '../../../variants';
 
 const ServiceContent = ({language}) => {
     return language === 'Chinese' ? (

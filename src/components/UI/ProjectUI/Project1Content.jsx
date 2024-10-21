@@ -1,50 +1,50 @@
 import React, { useState } from 'react'
 
-import '../../styles/project1.css';
+import '../../../styles/project1.css';
 
-import coverImg from '../../images/coverImg.jpg';
+import coverImg from '../../../images/coverImg.jpg';
 
-import senseMarketingImg from '../../images/sense-marketing-image.jpg';
+import senseMarketingImg from '../../../images/sense-marketing-image.jpg';
 
-import brandingMainImg from '../../images/branding-mainImg.png';
-import brandingImages1 from '../../images/branding-images-1.png';
-import brandingImages2 from '../../images/branding-images-2.png';
+import brandingMainImg from '../../../images/branding-mainImg.png';
+import brandingImages1 from '../../../images/branding-images-1.png';
+import brandingImages2 from '../../../images/branding-images-2.png';
 
-import characterDesign1 from '../../images/character_design-1.png';
-import characterDesign2 from '../../images/character_design-2.png';
-import characterDesign3 from '../../images/character_design-3.png';
-import characterDesign4 from '../../images/character_design-4.png';
-import characterDesign5 from '../../images/character_design-5.png';
-import characterDesign6 from '../../images/character_design-6.png';
+import characterDesign1 from '../../../images/character_design-1.png';
+import characterDesign2 from '../../../images/character_design-2.png';
+import characterDesign3 from '../../../images/character_design-3.png';
+import characterDesign4 from '../../../images/character_design-4.png';
+import characterDesign5 from '../../../images/character_design-5.png';
+import characterDesign6 from '../../../images/character_design-6.png';
 
-import packageDesignImg from '../../images/package-design-img.jpg';
+import packageDesignImg from '../../../images/package-design-img.jpg';
 
-import socialDesignImg from '../../images/social_design-image.png';
-import socialDesignDesImg from '../../images/social_design-des-image.png';
+import socialDesignImg from '../../../images/social_design-image.png';
+import socialDesignDesImg from '../../../images/social_design-des-image.png';
 
-import olympic1 from '../../images/olympic-1.png';
-import olympic2 from '../../images/olympic-2.png';
-import olympic3 from '../../images/olympic-3.png';
-import olympic4 from '../../images/olympic-4.png';
-import olympic5 from '../../images/olympic-5.png';
-import olympic6 from '../../images/olympic-6.png';
-import olympic7 from '../../images/olympic-7.png';
-import olympic8 from '../../images/olympic-8.png';
-import olympic9 from '../../images/olympic-9.png';
-import olympic10 from '../../images/olympic-10.png';
-import olympic11 from '../../images/olympic-11.png';
-import olympic12 from '../../images/olympic-12.png';
-import olympic13 from '../../images/olympic-13.png';
-import olympic14 from '../../images/olympic-14.png';
-import olympic15 from '../../images/olympic-15.png';
+import olympic1 from '../../../images/olympic-1.png';
+import olympic2 from '../../../images/olympic-2.png';
+import olympic3 from '../../../images/olympic-3.png';
+import olympic4 from '../../../images/olympic-4.png';
+import olympic5 from '../../../images/olympic-5.png';
+import olympic6 from '../../../images/olympic-6.png';
+import olympic7 from '../../../images/olympic-7.png';
+import olympic8 from '../../../images/olympic-8.png';
+import olympic9 from '../../../images/olympic-9.png';
+import olympic10 from '../../../images/olympic-10.png';
+import olympic11 from '../../../images/olympic-11.png';
+import olympic12 from '../../../images/olympic-12.png';
+import olympic13 from '../../../images/olympic-13.png';
+import olympic14 from '../../../images/olympic-14.png';
+import olympic15 from '../../../images/olympic-15.png';
 
-import artFooterImg from '../../images/art-footer-image.jpg';
-import artFooterLOGO from '../../images/art-footer-logo.jpg';
+import artFooterImg from '../../../images/art-footer-image.jpg';
+import artFooterLOGO from '../../../images/art-footer-logo.jpg';
 
 
 //framer motion
 import { motion } from 'framer-motion';
-import { fadeIn } from '../../variants';
+import { fadeIn } from '../../../variants';
 
 
 const Project1Content = ({theme, language}) => {

@@ -1,33 +1,15 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Header from '../Header/Header';
-import Newsletter from '../UI/Newsletter';
-import Footer from '../Footer/Footer';
+import Newsletter from '../UI/HomeUI/Newsletter';
 
-const AboutPage = () => {
-
-    const [theme, setTheme] = useState('light-theme');
-    const [language, setLanguage] = useState('Chinese');
-
-    const toggleLanguage = () => {
-        language === 'Chinese' ? setLanguage('English') : setLanguage('Chinese');
-    }
-
-    const toggleTheme = () => {
-        theme === '' ? setTheme('light-theme') : setTheme('');
-    }
-
-    useEffect(() => {
-        document.body.className = theme
-    }, [theme]);
+const ContactPage = ({language}) => {
 
     return (
-        <>
-            <Header theme={theme} toggleTheme={toggleTheme} language={language} toggleLanguage={toggleLanguage} />
-            <Newsletter theme={theme} language={language} />
-            <Footer />
-        </>
+        <div className='contact-page mt-5'>
+            <Newsletter language={language} />
+        </div>
     )
 }
 
-export default AboutPage
+export default ContactPage

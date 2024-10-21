@@ -1,10 +1,10 @@
 import React from 'react';
-import '../../styles/hero.css';
+import '../../../styles/hero.css';
 
 // import heroDarkImg from '../../images/hero-img.png';
 // import lightImg from '../../images/light-hero-bg.jpg';
-import heroGIF from '../../images/heroGIF.gif';
-import heroDarkGIF from '../../images/heroDarkGIF.gif';
+import heroGIF from '../../../images/heroGIF.gif';
+import heroDarkGIF from '../../../images/heroDarkGIF.gif';
 
 const Hero = ({theme, language}) => {
     return language === 'English' ? (

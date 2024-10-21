@@ -8,7 +8,7 @@
     --btn-primary-bg: #d9b93e;
     --btn-secondary-bg: #090238;
     --team-card-bg: #1b2352;
-    --link-color: #fff;
+    --link-color: #000;
     --link-active: #d9b93e;
     --card-bg: -webkit-linear-gradient(
     45deg,
@@ -91,7 +91,7 @@ section {
 .container {
     width: 1140px!important;
     padding: 0px 15px;
-    margin: auto;
+    margin: 30px auto 0;
 }
 
 .description {

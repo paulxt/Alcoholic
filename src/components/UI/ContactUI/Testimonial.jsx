@@ -1,13 +1,13 @@
 
 import React from 'react';
 
-import '../../styles/testimonial.css';
+import '../../../styles/testimonial.css';
 
 import Slider from 'react-slick';
 
-import ava01 from '../../images/ava-1.jpg';
-import ava02 from '../../images/ava-2.png';
-import ava03 from '../../images/ava-3.jpg';
+import ava01 from '../../../images/ava-1.jpg';
+import ava02 from '../../../images/ava-2.png';
+// import ava03 from '../../../images/ava-3.jpg';
 
 const Testimonial = ({language}) => {
 

@@ -1,7 +1,6 @@
-import React, { useRef, useEffect } from 'react';
+import React, {useRef, useEffect} from 'react';
 
 // import logoImg from '../../images/LOGO.png';
-
 import './header.css';
 
 const nav_link = [

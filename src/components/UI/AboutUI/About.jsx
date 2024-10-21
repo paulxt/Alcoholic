@@ -1,12 +1,12 @@
 import React from 'react';
 
-import '../../styles/about.css';
+import '../../../styles/about.css';
 
-import AboutImg from '../../images/about-us.jpg';
+import AboutImg from '../../../images/about-us.jpg';
 
 //framer motion
 import { motion } from 'framer-motion';
-import { fadeIn } from '../../variants';
+import { fadeIn } from '../../../variants';
 
 
 const chooseData = [

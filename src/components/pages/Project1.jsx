@@ -1,34 +1,14 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import ProjectHeader from '../UI/ProjectHeader';
-import Project1Content from '../UI/Project1Content';
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
+import Project1Content from '../UI/ProjectUI/Project1Content';
 
-const Project1 = () => {
-    const [theme, setTheme] = useState('light-theme');
-    const toggleTheme = () => {
-        theme === '' ? setTheme('light-theme') : setTheme('');
-    }
-
-    
-    const [language, setLanguage] = useState("Chinese");
-
-    const toggleLanguage = () => {
-        language === 'Chinese' ? setLanguage('English') : setLanguage('Chinese');
-    }
-
-    useEffect(() => {
-        document.body.className = theme
-    }, [theme]);
+const Project1 = ({language}) => {
 
     return (
-        <>
-            {/* <ProjectHeader language={language} toggleLanguage={toggleLanguage} /> */}
-            <Header theme={theme} toggleTheme={toggleTheme} language={language} toggleLanguage={toggleLanguage} />
-            <Project1Content theme={theme} language={language} />
-            <Footer theme={theme} />
-        </>
+        <div className='project-1 mt-5'>
+            <Project1Content language={language} />
+        </div>
     )
 }
 

@@ -1,37 +1,35 @@
-
-
 import React from 'react';
-import '../../styles/counter.css'; 
+import '../../../styles/counter.css'; 
     
-const counterData = [
-    {
-        number: '5K',
-        text: 'Clients',
-    },
-    {
-        number: 350,
-        text: 'Running Projects',
-    },
-    {
-        number: 900,
-        text: 'Projects Completed',
-    },
-]
+// const counterData = [
+//     {
+//         number: '5K',
+//         text: 'Clients',
+//     },
+//     {
+//         number: 350,
+//         text: 'Running Projects',
+//     },
+//     {
+//         number: 900,
+//         text: 'Projects Completed',
+//     },
+// ]
 
-const counterDataCN = [
-    {
-        number: '20',
-        text: '合作夥伴',
-    },
-    {
-        number: 10,
-        text: '執行案例',
-    },
-    {
-        number: 20,
-        text: '成功案例',
-    },
-]
+// const counterDataCN = [
+//     {
+//         number: '20',
+//         text: '合作夥伴',
+//     },
+//     {
+//         number: 10,
+//         text: '執行案例',
+//     },
+//     {
+//         number: 20,
+//         text: '成功案例',
+//     },
+// ]
     
     
 const Counter = ({language}) => {

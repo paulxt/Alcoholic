@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser'
 
-import '../../styles/newsletter.css';
+import '../../../styles/newsletter.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -15,8 +16,8 @@ const Newsletter = ({ language }) => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        const publicKey = "0TxbXfVTvzZfsbxeh";
-        const serviceID = "service_9wahsop";
+        const publicKey = "vaAPAAjAFecEMp8-x";
+        const serviceID = "service_3y2b1gs";
         const templateID = "template_7d2bdkx";
 
         const templateParams = {
@@ -27,7 +28,7 @@ const Newsletter = ({ language }) => {
 
         emailjs.send(serviceID, templateID, templateParams, publicKey)
             .then((res) => {
-                console.log('Email sent successfully!');
+                alert('Email Sent Successfullu!');
                 setName('');
                 setEmail('');
                 setMessage('');

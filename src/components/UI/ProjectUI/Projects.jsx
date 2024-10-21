@@ -1,15 +1,15 @@
 
 import React from 'react';
 
-import '../../styles/projects.css';
+import '../../../styles/projects.css';
 
-import artImg from '../../images/artImg.gif';
-import socialImg from '../../images/socialImg.gif';
-import adImg from '../../images/adImg.gif';
+import artImg from '../../../images/artImg.gif';
+import socialImg from '../../../images/socialImg.gif';
+import adImg from '../../../images/adImg.gif';
 
-import artDark from '../../images/artDark.gif';
-import socialDark from '../../images/socialDark.gif';
-import adDark from '../../images/adDark.gif';
+import artDark from '../../../images/artDark.gif';
+import socialDark from '../../../images/socialDark.gif';
+import adDark from '../../../images/adDark.gif';
 
 
 const projectData = [

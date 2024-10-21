@@ -1,27 +1,27 @@
 import React from 'react'
 
-import '../../styles/project2.css';
+import '../../../styles/project2.css';
 
 // import ProjectHeader from '../UI/ProjectHeader';
 
-import socialPartImg from '../../images/social-part_img.png';
-import lineLOGO from '../../images/line_logo.svg.png';
-import googleMap from '../../images/google-map.png';
+import socialPartImg from '../../../images/social-part_img.png';
+import lineLOGO from '../../../images/line_logo.svg.png';
+import googleMap from '../../../images/google-map.png';
 
-import forumImg from '../../images/forumImg.png';
-import dcardImg from '../../images/dcardImg.png';
+import forumImg from '../../../images/forumImg.png';
+import dcardImg from '../../../images/dcardImg.png';
 
-import caseImg from '../../images/caseImg.gif';
+import caseImg from '../../../images/caseImg.gif';
 
-import socialExpImg from '../../images/social_experience-image.png';
-import winwinImg from '../../images/winwinImg.jpg';
+import socialExpImg from '../../../images/social_experience-image.png';
+import winwinImg from '../../../images/winwinImg.jpg';
 
-import socailFooterImg from '../../images/social_footer-image.png';
+import socailFooterImg from '../../../images/social_footer-image.png';
 
 
 //framer motion
 import { motion } from 'framer-motion';
-import { fadeIn } from '../../variants';
+import { fadeIn } from '../../../variants';
 
 const Project2Content = ({theme, language}) => {
     return language === 'Chinese' ? (

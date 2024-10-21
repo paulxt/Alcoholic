@@ -1,35 +1,35 @@
 import React from 'react'
-import '../../styles/project3.css';
+import '../../../styles/project3.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // import ProjectHeader from '../UI/ProjectHeader';
 
-import adIntroImg from '../../images/ad_intro-img.png';
+import adIntroImg from '../../../images/ad_intro-img.png';
 
-import adImg1 from '../../images/adImg-1.png';
-import adImg2 from '../../images/adImg-2.png';
-import adImg3 from '../../images/adImg-3.png';
+import adImg1 from '../../../images/adImg-1.png';
+import adImg2 from '../../../images/adImg-2.png';
+import adImg3 from '../../../images/adImg-3.png';
 
-import cross from '../../images/cross.png';
-import wheel from '../../images/wheel.gif';
+import cross from '../../../images/cross.png';
+import wheel from '../../../images/wheel.gif';
 
-import adTrackImg from '../../images/ad_track-image.png';
-import metaImg from '../../images/meta-image.png';
-import gaImg from '../../images/ga-image.png';
-import mixpanelImg from '../../images/mixpanel-image.png';
-import searchConsoleImg from '../../images/search-console-image.png';
+import adTrackImg from '../../../images/ad_track-image.png';
+import metaImg from '../../../images/meta-image.png';
+import gaImg from '../../../images/ga-image.png';
+import mixpanelImg from '../../../images/mixpanel-image.png';
+import searchConsoleImg from '../../../images/search-console-image.png';
 
-import socailFooterImg from '../../images/social_footer-image.png';
+import socailFooterImg from '../../../images/social_footer-image.png';
 
 
 //framer motion
 import { motion } from 'framer-motion';
-import { fadeIn } from '../../variants';
+import { fadeIn } from '../../../variants';
 
 const Project3Content = ({theme, language}) => {
     return language === 'Chinese' ? (
         // Chinese Version
-        <>
-            <section className="project-3">
+            <section className="project-3 pt-5">
                 <div className="container">
                     <div className="project3-content">
                         {/*----- 數據優化｜AI廣告投放 ---- */}
@@ -179,11 +179,9 @@ const Project3Content = ({theme, language}) => {
                     </div>
                 </div>
             </section>
-        </>
     ) : (
             // English Version
-            <>
-                <section className="project-3">
+                <section className="project-3 pt-5">
                     <div className="container">
                         <div className="project3-content">
                             {/*----- 數據優化｜AI廣告投放 ---- */}
@@ -335,7 +333,6 @@ const Project3Content = ({theme, language}) => {
                         </div>
                     </div>
                 </section>
-            </>
         )
 }
 

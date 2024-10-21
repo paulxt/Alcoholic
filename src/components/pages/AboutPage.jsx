@@ -1,32 +1,15 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Header from '../Header/Header';
-import AboutContent from '../UI/AboutContent';
-import Footer from '../Footer/Footer';
+import AboutContent from '../UI/AboutUI/AboutContent';
 
-const AboutPage = () => {
 
-    const [theme, setTheme] = useState('light-theme');
-    const [language, setLanguage] = useState('Chinese');
-
-    const toggleLanguage = () => {
-        language === 'Chinese' ? setLanguage('English') : setLanguage('Chinese');
-    }
-
-    const toggleTheme = () => {
-        theme === '' ? setTheme('light-theme') : setTheme('');
-    }
-
-    useEffect(() => {
-        document.body.className = theme
-    }, [theme]);
+const AboutPage = ({language}) => {
 
     return (
-        <>
-            <Header theme={theme} toggleTheme={toggleTheme} language={language} toggleLanguage={toggleLanguage} />
-            <AboutContent theme={theme} language={language} />
-            <Footer />
-        </>
+        <div className="about-page mt-5">
+            <AboutContent language={language} />
+        </div>
     )
 }
 

@@ -1,30 +1,30 @@
-import React, {useState} from 'react';
-import '../../styles/aboutpage.css';
+import React from 'react';
+import '../../../styles/aboutpage.css';
 
-import aboutHistory1 from '../../images/about-history-1.jpg';
-import aboutHistory2 from '../../images/about-history-2.jpg';
-import aboutHistory3 from '../../images/about-history-3.jpg';
-import aboutHistory4 from '../../images/about-history-4.jpg';
+import aboutHistory1 from '../../../images/about-history-1.jpg';
+import aboutHistory2 from '../../../images/about-history-2.jpg';
+import aboutHistory3 from '../../../images/about-history-3.jpg';
+import aboutHistory4 from '../../../images/about-history-4.jpg';
 
-import reachingImg from '../../images/reaching-image.jpg';
-import reachingDesImg from '../../images/reaching-des-image.jpg';
+import reachingImg from '../../../images/reaching-image.jpg';
+import reachingDesImg from '../../../images/reaching-des-image.jpg';
 
-import servicePlanBlockImg1 from '../../images/3service-block-image1.png';
-import servicePlanBlockImg2 from '../../images/3service-block-image2.gif';
-import servicePlanBlockImg3 from '../../images/3service-block-image3.gif';
+import servicePlanBlockImg1 from '../../../images/3service-block-image1.png';
+import servicePlanBlockImg2 from '../../../images/3service-block-image2.gif';
+import servicePlanBlockImg3 from '../../../images/3service-block-image3.gif';
 
-import japaneseTeamImg from '../../images/japanese-team-image.jpg';
+import japaneseTeamImg from '../../../images/japanese-team-image.jpg';
 
-import japaneseTeamLogo1 from '../../images/japanese_team-icon1.jpg';
-import japaneseTeamLogo2 from '../../images/japanese_team-icon2.webp';
-import japaneseTeamLogo3 from '../../images/japanese_team-icon3.png';
-import japaneseTeamLogo4 from '../../images/japanese_team-icon4.jpg';
-import japaneseTeamLogo5 from '../../images/japanese_team-icon5.png';
+import japaneseTeamLogo1 from '../../../images/japanese_team-icon1.jpg';
+import japaneseTeamLogo2 from '../../../images/japanese_team-icon2.webp';
+import japaneseTeamLogo3 from '../../../images/japanese_team-icon3.png';
+import japaneseTeamLogo4 from '../../../images/japanese_team-icon4.jpg';
+import japaneseTeamLogo5 from '../../../images/japanese_team-icon5.png';
 
 
 //framer motion
 import { motion } from 'framer-motion';
-import { fadeIn } from '../../variants';
+import { fadeIn } from '../../../variants';
 
 const aboutExperience = [
     {
