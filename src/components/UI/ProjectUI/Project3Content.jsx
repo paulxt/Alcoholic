@@ -110,7 +110,7 @@ const Project3Content = ({theme, language}) => {
                             </motion.table>
                         </div>
                         {/*----- 提供全方位完整數據 ---- */}
-                        <div className="ad_data">
+                        {/* <div className="ad_data">
                             <h2>提供全方位完整數據</h2>
                             <motion.div
                                 variants={fadeIn('up', 0.3)}
@@ -130,9 +130,9 @@ const Project3Content = ({theme, language}) => {
                                 </div>
                             </motion.div>
                             <h2>優化素材、自動找尋適合受眾再行銷！</h2>
-                        </div>
+                        </div> */}
                         {/*----- 網路行銷數據追蹤 ---- */}
-                        <div className="ad_track">
+                        <div className="ad_track my-5">
                             <h2>網路行銷數據追蹤</h2>
                             <div className="ad_track-content">
                                 <div className="ad_track-img">

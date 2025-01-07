@@ -9,7 +9,7 @@ import Services from '../UI/ServiceUI/Services';
 import About from '../UI/AboutUI/About';
 // import Team from '../UI/ContactUI/Team';
 // import Blog from '../UI/Blog';
-import Testimonial from '../UI/ContactUI/Testimonial';
+import Testimonial from '../UI/HomeUI/Testimonial';
 import Newsletter from '../UI/HomeUI/Newsletter';
 import Projects from '../UI/ProjectUI/Projects';
 
