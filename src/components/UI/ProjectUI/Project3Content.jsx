@@ -32,11 +32,11 @@ const Project3Content = ({theme, language}) => {
             <section className="project-3 pt-5">
                 <div className="container">
                     <div className="project3-content">
-                        {/*----- 數據優化｜AI廣告投放 ---- */}
+                        {/*----- 數據優化｜廣告投放 ---- */}
                         <div className="project3-header">
-                            <h1>數據優化｜AI廣告投放</h1>
+                            <h1>數據優化｜廣告投放</h1>
                             <p>
-                                AI精準鎖定潛在客群、消費者進行廣告投放，判定素材品質效果，幫助您優 <br/>
+                                精準鎖定潛在客群、消費者進行廣告投放，判定素材品質效果，幫助您優 <br/>
                                 化素材再行銷、掌握轉換率與訂單數！
                             </p>
                             <h3>廣告成效最大化</h3>
@@ -50,7 +50,7 @@ const Project3Content = ({theme, language}) => {
                                 exit="hidden"
                                 className="ad_intro-des"
                             >
-                                <h2>自有AI廣告投放系統！</h2>
+                                <h2>自有廣告投放系統！</h2>
                                 <ul>
                                     <li>最新行銷趨勢與科技</li>
                                     <li>將廣告預算的價值發揮到最大</li>
@@ -69,7 +69,7 @@ const Project3Content = ({theme, language}) => {
                             </motion.div>
                         </div>
                         {/*----- 傳統廣告投放 VS AI廣告投放 ---- */}
-                        <div className="ad_compare">
+                        {/* <div className="ad_compare">
                             <h2>傳統廣告投放 VS AI廣告投放</h2>
                             <motion.table
                                 variants={fadeIn('down', 0.3)}
@@ -108,7 +108,7 @@ const Project3Content = ({theme, language}) => {
                                 </tbody>
                                 
                             </motion.table>
-                        </div>
+                        </div> */}
                         {/*----- 提供全方位完整數據 ---- */}
                         {/* <div className="ad_data">
                             <h2>提供全方位完整數據</h2>
@@ -157,12 +157,12 @@ const Project3Content = ({theme, language}) => {
                         {/*----- 讓Alcoholic專業團隊為您導入Ai廣告投放！ ---- */}
                         <div className="ad_footer">
                             <div className='ad_footer-logo'>
-                                <h2>讓Alcoholic專業團隊為您導入Ai廣告投放！</h2>
+                                <h2>讓Alcoholic專業團隊為您導入精準廣告投放！</h2>
                                 <img src={socailFooterImg} alt="" />
                             </div>
                             <div className="ad_footer-des">
                                 <div className="ad_footer-block">
-                                    <h3>AI廣告投放優化系統｜數位廣告投放工具</h3>
+                                    <h3>廣告投放優化系統｜數位廣告投放工具</h3>
                                     <p>降低廣告成本、成效最大化，迎接全新數位時代！</p>
                                 </div>
                                 <div className="ad_footer-block">
@@ -186,7 +186,7 @@ const Project3Content = ({theme, language}) => {
                         <div className="project3-content">
                             {/*----- 數據優化｜AI廣告投放 ---- */}
                             <div className="project3-header">
-                                <h1>Data Optimization｜AI ad Deployment</h1>
+                                <h1>Data Optimization｜AD Deployment</h1>
                                 <p>
                                     AI-Powered Precise Targeting of Potential Customer Segments,
                                     Material Quality and Effectiveness Assessment, Assisting in
@@ -195,7 +195,7 @@ const Project3Content = ({theme, language}) => {
                                 </p>
                                 <h3>Maximum Ad Effect</h3>
                             </div>
-                            {/*----- 自有AI廣告投放系統！ ---- */}
+                            {/*----- 自有廣告投放系統！ ---- */}
                             <div className="ad_intro">
                                 <motion.div
                                     variants={fadeIn('right', 0.7)}
@@ -204,7 +204,7 @@ const Project3Content = ({theme, language}) => {
                                     exit="hidden"
                                     className="ad_intro-des"
                                 >
-                                    <h2>AI Advertise System！</h2>
+                                    <h2>Advertise System！</h2>
                                     <ul>
                                         <li>Newest Marketing Trend & Tech</li>
                                         <li>Maximize the Value of Ad</li>
@@ -223,7 +223,7 @@ const Project3Content = ({theme, language}) => {
                                 </motion.div>
                             </div>
                             {/*----- 傳統廣告投放 VS AI廣告投放 ---- */}
-                            <div className="ad_compare">
+                            {/* <div className="ad_compare">
                                 <h2>Traditional Ad Deployment VS AI Ad Deployment</h2>
                                 <motion.table
                                     variants={fadeIn('down', 0.3)}
@@ -262,9 +262,9 @@ const Project3Content = ({theme, language}) => {
                                     </tbody>
                                     
                                 </motion.table>
-                            </div>
+                            </div> */}
                             {/*----- 提供全方位完整數據 ---- */}
-                            <div className="ad_data">
+                            {/* <div className="ad_data">
                                 <h2>Comprehensive Data Analysis</h2>
                                 <div className="ad_data-images">
                                     <div className="ad_data-image">
@@ -278,9 +278,9 @@ const Project3Content = ({theme, language}) => {
                                     </div>
                                 </div>
                                 <h2>Optimizing Materials, Automatically Find and Retarget!</h2>
-                            </div>
+                            </div> */}
                             {/*----- 網路行銷數據追蹤 ---- */}
-                            <div className="ad_track">
+                            <div className="ad_track my-5">
                                 <h2>Marketing Digitalization</h2>
                                 <div className="ad_track-content">
                                     <div
@@ -311,12 +311,12 @@ const Project3Content = ({theme, language}) => {
                             {/*----- 讓Alcoholic專業團隊為您導入Ai廣告投放！ ---- */}
                             <div className="ad_footer">
                                 <div className='ad_footer-logo'>
-                                    <h2>Alcoholic guide you through AI advertising deployment!</h2>
+                                    <h2>Alcoholic guide you through advertising deployment!</h2>
                                     <img src={socailFooterImg} alt="" />
                                 </div>
                                 <div className="ad_footer-des">
                                     <div className="ad_footer-block">
-                                        <h3>Ad optimization system with AI｜Digial Ad Tools</h3>
+                                        <h3>Ad optimization system｜Digial Ad Tools</h3>
                                         <p>Decrease Advertising Cost, Maximize Effectiveness</p>
                                     </div>
                                     <div className="ad_footer-block">

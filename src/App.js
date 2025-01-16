@@ -36,7 +36,7 @@ function App() {
   // }, [theme]);
 
   /*********** Language ************/
-  const [language, setLanguage] = useState({});
+  const [language, setLanguage] = useState("Chinese");
   const toggleLanguage = async (e) => {
     e.preventDefault();
     await setLanguage((prev) => 

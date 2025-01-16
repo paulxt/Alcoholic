@@ -86,6 +86,7 @@
     text-align: center;
     margin: 2rem auto;
     font-size: 2.2rem;
+    font-weight: 600;
 }
 .light-theme .ad_compare h2 {
     color: #000;
@@ -119,6 +120,7 @@
     height: auto;
     vertical-align: middle;
     margin-right: 1rem;
+    border-radius: 20px;
 }
 
 .ad_compare-group1 {
@@ -288,6 +290,13 @@
         width: 100%;
     }
 
+    .ad_footer-logo h2 {
+        margin-top: 10px;
+    }
+    .ad_footer-logo img {
+        width: 60%;
+    }
+
     .ad_footer-block {
         margin: 1.4rem 1rem;
         
@@ -298,5 +307,18 @@
     }
     .ad_footer-block p {
         font-size: 1rem;
+    }
+}
+
+
+@media only screen and (max-width:576px) {
+    .ad_track-des p {
+        font-size: 0.8rem;
+    }
+    .ad_footer-logo img {
+        width: 40%;
+    }
+    .ad_intro-des ul {
+        font-size: 1.3rem;
     }
 }

@@ -261,6 +261,7 @@
     }
     .service_page-header h1 {
         width: 100%;
+        font-size: 3rem;
     }
     .service_page-header img {
         width: 100%;
